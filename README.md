@@ -15,7 +15,7 @@ The `ft_transcendence` project is a web-based multiplayer game designed to simul
 - Real-time data of website's performance and requests.
 - Play 1v1 or in a tournament.
 - GDPR compliant.
-- Microservices architecture.
+- Microservices and multi-container architecture.
 - Frontend framework : Bootstrap.
 - Backend frameworf : Django.
 - Database : PostgreSQL
