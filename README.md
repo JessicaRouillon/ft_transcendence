@@ -19,10 +19,17 @@ The `ft_transcendence` project is a web-based multiplayer game designed to simul
 - Play 1v1 or in a tournament.
 - GDPR compliant.
 - Microservices and multi-container architecture.
-- Frontend framework : Bootstrap.
-- Backend frameworf : Django.
-- Database : PostgreSQL
 
+<br>
+
+### 🔧 Key Technologies
+
+- Infrastructure: DockerCompose
+- Web : Nginx
+- Frontend framework : Bootstrap
+- Backend frameworf : Django
+- Database : PostgreSQL
+<br>
 
 ### 🚀 Usage
 
@@ -35,6 +42,7 @@ git clone https://github.com/JessicaRouillon/ft_transcendence.git
 #### 2. Compile the `ft_transcendence` program
 
 ```shell
+cd ft_transcendence
 make
 ```
 
@@ -44,6 +52,8 @@ make
 https://localhost:4430
 ```
 
+<br>
+
 ### 🔎 Help
 
-If the website is not displaying, it might be because of rights issues.
+Your browser might send you a warning for opening this link. As it is a locally hosted website, go to "Advanced" and click the "Accept the Risk and Continue" button to continue.
