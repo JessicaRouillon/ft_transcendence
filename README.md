@@ -4,6 +4,8 @@
 
 The `ft_transcendence` project is a web-based multiplayer game designed to simulate the famous Pong game. It has challenged our understanding of backend and frontend development by intergrating advanced features such as authentication, data storage, Single Page Application, AI and many other notions. 🎮
 
+![Demo](./docs/demo.gif)
+
 ### 🌟 Key Features
 
 - Player authentication with token-based login (JWT) as well as 2 Factor Authentication.
@@ -11,6 +13,7 @@ The `ft_transcendence` project is a web-based multiplayer game designed to simul
 - AI opponent to play against a computer.
 - Customizable player profiles, including avatar and personal information.
 - Personal game dashboards and statistics.
+- Friends list and requests.
 - Leaderboard system to track top and worst players.
 - Real-time data of website's performance and requests.
 - Play 1v1 or in a tournament.
