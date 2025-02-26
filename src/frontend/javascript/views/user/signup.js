@@ -242,7 +242,7 @@ function isValidDateOfBirth(date_of_birth)
 	return true;
 }
 
-async function isValidUsername(username)
+function isValidUsername(username)
 {
 	const acceptedCharacters = /^[a-z0-9_-]+$/;
 
@@ -250,7 +250,7 @@ async function isValidUsername(username)
 		return false;
 	else if (acceptedCharacters.test(username) === false)
 		return false;
-	if (await doesUserExist(username) === true)
+	if (doesUserExist(username) === true)
 	{
 		if (DEBUG)
 			console.log('Error: Username already exists.');
@@ -268,7 +268,7 @@ function isValidPassword(password)
 	return true;
 }
 
-async function isValidEmail(email)
+function isValidEmail(email)
 {
 	const	acceptedCharacters = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 	const	[localPart, domainPart] = email.split('@');
@@ -279,7 +279,7 @@ async function isValidEmail(email)
 		return false;
 	if (domainPart.length > 255)
 		return false;
-	if (await doesEmailExist(email) === true)
+	if (doesEmailExist(email) === true)
 	{
 		if (DEBUG)
 			console.log('Error: Email already exists.');

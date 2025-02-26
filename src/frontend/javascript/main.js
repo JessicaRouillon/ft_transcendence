@@ -1,7 +1,7 @@
 /***********************************************\
 -				GLOBAL VARIABLES				-
 \***********************************************/
-export	const	DEBUG = false;
+export	const	DEBUG = true;
 export	const	GITHUBACTIONS = false;
 
 /***********************************************\
@@ -77,7 +77,7 @@ from "./views/user/delete_inactive_users.js";
 \***********************************************/
 const	routes =
 {
-	'':
+	'/':
 	{
 		title: "Home",
 		render: renderHome
@@ -202,9 +202,10 @@ function router()
 	{
 		cleanUpPong();
 	}
-
+	
 	if (DEBUG)
 		console.log('isSignedIn = ', isSignedIn);
+
 
 	const	restrictedPaths =
 	{

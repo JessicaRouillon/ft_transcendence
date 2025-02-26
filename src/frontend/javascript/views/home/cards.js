@@ -107,7 +107,7 @@ export function createTheTeamCard()
 			title: 'Jessica<br>Rouillon<br>',
 			imgSrc: '../../../assets/images/home/the_team/photos/jess_team.jpg',
 			linkedIn: 'https://www.linkedin.com/in/jessica-rouillon-37a22053/',
-			github: 'https://github.com/Lechonita'
+			github: 'https://github.com/JessicaRouillon'
 		},
 		{
 			title: 'Clément<br>Bernazeau<br>',
