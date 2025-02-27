@@ -48,6 +48,8 @@ make
 
 #### 3. Visit the website
 
+⚠️❗ Open your browser in **Incognito Mode** ❗⚠️
+
 ```shell
 https://localhost:4430
 ```
