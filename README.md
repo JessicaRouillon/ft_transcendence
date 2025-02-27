@@ -58,4 +58,4 @@ https://localhost:4430
 
 ### 🔎 Help
 
-Your browser might send you a warning for opening this link. As it is a locally hosted website, go to "Advanced" and click the "Accept the Risk and Continue" button to continue.
+Your browser might send you a warning for opening this link. As it is a locally hosted website, go to `Advanced` and click the `Accept the Risk and Continue` button to continue.
